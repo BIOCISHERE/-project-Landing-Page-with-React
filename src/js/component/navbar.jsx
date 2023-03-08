@@ -6,7 +6,7 @@ import rigoImage from "../../img/rigo-baby.jpg";
 //create your first component
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav className="navbar navbar-expand-md navbar-dark bg-dark">
         <div className="container-fluid">
             <a className="navbar-brand" href="#">
                 Start Bootstap
@@ -21,8 +21,8 @@ const Navbar = () => {
                 aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
             </button>
-            <div className="collapse navbar-collapse d-flex flex-row-reverse" id="navbarNavAltMarkup">
-                <div className="navbar-nav">
+            <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div className="navbar-nav ms-auto">
                     <a className="nav-link active" aria-current="page" href="#">
                         Home
                     </a>
